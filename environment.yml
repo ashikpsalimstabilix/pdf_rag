@@ -1,0 +1,14 @@
+# conda env create -f environment.yml
+# conda activate rag-workshop
+name: rag-workshop
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - -r backend/requirements.txt
+      - matplotlib==3.11.2      # notebook visualizations
+      - scikit-learn==1.9.1     # PCA for the "map of meaning"

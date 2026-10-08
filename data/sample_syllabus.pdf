@@ -1,0 +1,245 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2535 >>
+stream
+BT
+14 TL
+60 740 Td
+/F2 10.5 Tf
+(SAMPLE COURSE HANDBOOK - CST 3XX: APPLIED MACHINE LEARNING \(B.Tech CSE, Semester) Tj T*
+/F2 10.5 Tf
+(6\)) Tj T*
+/F1 10.5 Tf
+(This handbook is an illustrative teaching sample prepared for the Retrieval-Augmented) Tj T*
+/F1 10.5 Tf
+(Generation workshop. It describes the course structure, syllabus modules, examination) Tj T*
+/F1 10.5 Tf
+(pattern, internal evaluation scheme, laboratory guidelines and academic integrity rules for) Tj T*
+/F1 10.5 Tf
+(a third-year Computer Science and Engineering elective. Students should use it to test how a) Tj T*
+/F1 10.5 Tf
+(RAG system retrieves precise facts from a long document.) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(1. Course Objectives) Tj T*
+/F1 10.5 Tf
+(The course introduces supervised and unsupervised learning, model evaluation, and the) Tj T*
+/F1 10.5 Tf
+(engineering of modern language-model applications. On completion, students will be able to) Tj T*
+/F1 10.5 Tf
+(formulate a learning problem, select an appropriate algorithm, measure generalisation error,) Tj T*
+/F1 10.5 Tf
+(and deploy a small retrieval-augmented question answering service. The course carries 4) Tj T*
+/F1 10.5 Tf
+(credits with 3 lecture hours and 1 tutorial hour per week.) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(2. Syllabus - Module 1: Foundations of Learning) Tj T*
+/F1 10.5 Tf
+(Types of learning: supervised, unsupervised, reinforcement. Hypothesis space, inductive) Tj T*
+/F1 10.5 Tf
+(bias, bias-variance trade-off. Linear regression with ordinary least squares and gradient) Tj T*
+/F1 10.5 Tf
+(descent. Regularisation using L1 \(lasso\) and L2 \(ridge\) penalties. Train, validation and) Tj T*
+/F1 10.5 Tf
+(test splits; k-fold cross validation. \(9 hours\)) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(3. Syllabus - Module 2: Classification) Tj T*
+/F1 10.5 Tf
+(Logistic regression and the sigmoid function. Decision trees, entropy and information gain.) Tj T*
+/F1 10.5 Tf
+(Support vector machines, margin maximisation and the kernel trick. k-nearest neighbours and) Tj T*
+/F1 10.5 Tf
+(distance metrics including Euclidean, Manhattan and cosine distance. Naive Bayes classifier.) Tj T*
+/F1 10.5 Tf
+(\(9 hours\)) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(4. Syllabus - Module 3: Neural Networks and Representations) Tj T*
+/F1 10.5 Tf
+(Perceptron, multilayer perceptron, backpropagation. Activation functions: ReLU, tanh,) Tj T*
+/F1 10.5 Tf
+(softmax. Word embeddings: one-hot encoding versus dense vectors, word2vec intuition,) Tj T*
+ET
+BT /F1 8 Tf 286.0 30 Td (Page 1 of 3) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2726 >>
+stream
+BT
+14 TL
+60 740 Td
+/F1 10.5 Tf
+(sentence embeddings. Vector spaces, dot products, cosine similarity and why normalised) Tj T*
+/F1 10.5 Tf
+(vectors make cosine similarity equal to the dot product. \(9 hours\)) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(5. Syllabus - Module 4: Unsupervised Learning and Vector Search) Tj T*
+/F1 10.5 Tf
+(k-means clustering, elbow method, hierarchical clustering. Principal component analysis for) Tj T*
+/F1 10.5 Tf
+(dimensionality reduction. Approximate nearest neighbour search: flat indexes, inverted file) Tj T*
+/F1 10.5 Tf
+(indexes \(IVF\), product quantisation and HNSW graphs. Introduction to the FAISS library and) Tj T*
+/F1 10.5 Tf
+(vector databases. \(9 hours\)) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(6. Syllabus - Module 5: Large Language Model Applications) Tj T*
+/F1 10.5 Tf
+(Transformer architecture overview, tokenisation and context windows. Prompt engineering.) Tj T*
+/F1 10.5 Tf
+(Retrieval-Augmented Generation: document loading, chunking with overlap, embedding,) Tj T*
+/F1 10.5 Tf
+(indexing, retrieval, grading and grounded generation. Agentic workflows with state machines,) Tj T*
+/F1 10.5 Tf
+(query rewriting and self-correction. Hallucination and evaluation of RAG systems. \(9 hours\)) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(7. Examination Pattern - End Semester Examination \(ESE\)) Tj T*
+/F1 10.5 Tf
+(The End Semester Examination is conducted for 100 marks with a duration of 3 hours. Part A) Tj T*
+/F1 10.5 Tf
+(contains 10 short-answer questions, two from each module, each carrying 3 marks, for a total) Tj T*
+/F1 10.5 Tf
+(of 30 marks. All questions in Part A are compulsory. Part B contains two questions from each) Tj T*
+/F1 10.5 Tf
+(module, of which the student must answer one full question per module. Each Part B question) Tj T*
+/F1 10.5 Tf
+(carries 14 marks and may contain a maximum of two sub-divisions, for a total of 70 marks.) Tj T*
+/F1 10.5 Tf
+(Programmable calculators are not permitted.) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(8. Continuous Internal Evaluation \(CIE\) - Internal Marks) Tj T*
+/F1 10.5 Tf
+(Continuous Internal Evaluation carries 50 marks and is distributed as follows: Attendance 10) Tj T*
+/F1 10.5 Tf
+(marks; Continuous Assessment Tests 25 marks; Assignments, quizzes and course project 15) Tj T*
+/F1 10.5 Tf
+(marks. Two continuous assessment tests are conducted, the first after completing two and a) Tj T*
+/F1 10.5 Tf
+(half modules and the second after the remaining modules. The average of the two test scores) Tj T*
+/F1 10.5 Tf
+(is taken. A student must secure at least 40 percent of the CIE marks to be eligible to) Tj T*
+/F1 10.5 Tf
+(appear for the End Semester Examination.) Tj T*
+ET
+BT /F1 8 Tf 286.0 30 Td (Page 2 of 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2189 >>
+stream
+BT
+14 TL
+60 740 Td
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(9. Grading and Pass Criteria) Tj T*
+/F1 10.5 Tf
+(The total mark for the course is 150 \(50 CIE + 100 ESE\). A student passes the course by) Tj T*
+/F1 10.5 Tf
+(securing at least 40 percent in the End Semester Examination and at least 45 percent of the) Tj T*
+/F1 10.5 Tf
+(aggregate of CIE and ESE marks. Letter grades are awarded on a 10-point scale: S \(90 percent) Tj T*
+/F1 10.5 Tf
+(and above\), A+ \(85-89\), A \(80-84\), B+ \(70-79\), B \(60-69\), C \(50-59\), P \(45-49\) and F \(below) Tj T*
+/F1 10.5 Tf
+(45\).) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(10. Laboratory and Course Project Guidelines) Tj T*
+/F1 10.5 Tf
+(Each student builds a mini project that loads a PDF corpus, splits it into chunks of roughly) Tj T*
+/F1 10.5 Tf
+(500 to 1000 characters with 10 to 20 percent overlap, embeds the chunks, stores them in a) Tj T*
+/F1 10.5 Tf
+(FAISS index, and answers questions with citations to page numbers. The project report must) Tj T*
+/F1 10.5 Tf
+(include a table of retrieval distances for at least five test queries and a screenshot of) Tj T*
+/F1 10.5 Tf
+(the agent state graph. Projects are evaluated through a live demonstration and a viva voce.) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(11. Academic Integrity) Tj T*
+/F1 10.5 Tf
+(Plagiarism in assignments, test answers or project code results in zero marks for the) Tj T*
+/F1 10.5 Tf
+(component concerned. Use of AI assistants must be declared in the project report, including) Tj T*
+/F1 10.5 Tf
+(the prompts used. Sharing API keys in public repositories is treated as a security violation) Tj T*
+/F1 10.5 Tf
+(and the keys must be revoked immediately.) Tj T*
+/F1 10.5 Tf
+() Tj T*
+/F2 10.5 Tf
+(12. Reference Books) Tj T*
+/F1 10.5 Tf
+(1. Tom M. Mitchell, Machine Learning, McGraw Hill. 2. Christopher Bishop, Pattern) Tj T*
+/F1 10.5 Tf
+(Recognition and Machine Learning, Springer. 3. Aurelien Geron, Hands-On Machine Learning) Tj T*
+/F1 10.5 Tf
+(with Scikit-Learn, Keras and TensorFlow, O'Reilly. 4. Jay Alammar and Maarten Grootendorst,) Tj T*
+/F1 10.5 Tf
+(Hands-On Large Language Models, O'Reilly.) Tj T*
+/F1 10.5 Tf
+() Tj T*
+ET
+BT /F1 8 Tf 286.0 30 Td (Page 3 of 3) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000414 00000 n 
+0000003001 00000 n 
+0000003137 00000 n 
+0000005915 00000 n 
+0000006052 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+8294
+%%EOF
