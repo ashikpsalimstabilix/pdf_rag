@@ -1,0 +1,26 @@
+# Streamlit reads this file automatically when you run `streamlit run app.py` from this folder.
+# Try changing the colours and refresh the page!
+
+[theme]
+base = "light"
+primaryColor = "#5B5BD6"              # indigo: buttons, links, highlights
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F5FA"  # cards, chat bubbles, inputs
+textColor = "#1F2335"
+borderColor = "#E4E6EF"
+showWidgetBorder = true
+baseRadius = "large"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFontWeights = 700
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+
+[theme.sidebar]
+backgroundColor = "#F7F7FC"
+secondaryBackgroundColor = "#FFFFFF"
+
+[client]
+toolbarMode = "minimal"   # hide developer menu items
+
+[browser]
+gatherUsageStats = false

@@ -16,7 +16,18 @@ pdf_rag/
 │   ├── 01_rag_pipeline_exploration.ipynb   ← PDF → chunks → embeddings → pictures → search
 │   ├── 02_agentic_workflow.ipynb           ← LLM → system prompt → memory → agent
 │   └── 03_rag_agent_end_to_end.ipynb       ← all together: LLM alone vs Classic RAG vs Agentic RAG
-├── backend/        ← FastAPI server (core_rag.py = the agent, main.py = the API)
+├── backend/
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── app/                ← the Python package (one file = one job)
+│       ├── config.py       ← all settings and API keys in one place
+│       ├── prompts.py      ← the system prompt (the agent's instructions)
+│       ├── vectordb.py     ← PDF → chunks → embeddings → FAISS
+│       ├── llm.py          ← loads Groq or Gemini
+│       ├── tools.py        ← functions the agent may call (search_pdf)
+│       ├── agent.py        ← LLM + prompt + tools + memory = the agent
+│       ├── schemas.py      ← shape of the API's JSON requests/responses
+│       └── main.py         ← FastAPI routes (/upload, /query, /status)
 ├── frontend/       ← Streamlit chat app
 ├── data/           ← sample_syllabus.pdf (an example document, not an official KTU document)
 ├── environment.yml ← conda environment
@@ -94,15 +105,17 @@ Open **two terminals** (both with `conda activate rag-workshop`):
 ```bash
 # Terminal 1: the backend API
 cd backend
-uvicorn main:app --reload --port 8000
+uvicorn app.main:app --reload --port 8000
 ```
 ```bash
 # Terminal 2: the chat website
 cd frontend
 streamlit run app.py
 ```
-Open <http://localhost:8501>, upload a PDF, and start chatting.
+Open <http://localhost:8501>, upload a PDF, and start chatting. Use the starter questions, or type your own.
 Click **🔬 Core System Technical Ingress Trace** under an answer to see which PDF chunks the agent found, and how close they were.
+
+🎨 **Make it yours:** colours and fonts live in `frontend/.streamlit/config.toml`. Change `primaryColor` and refresh the page!
 
 API docs (try the API from your browser): <http://localhost:8000/docs>
 
@@ -136,4 +149,4 @@ Stop it with `Ctrl+C`, then run `docker compose down`.
 | `429` / rate limit | free tier limit reached. Wait a minute or switch provider |
 | "Backend is not running" in the app | start Terminal 1 (uvicorn) first |
 | Graph picture does not show | drawing the picture needs internet |
-| First upload is slow | the Hugging Face embedding model `all-MiniLM-L6-v2` (~90 MB) downloads once |
+| First upload is slow | the Hugging Face embedding model `BAAI/bge-small-en-v1.5` (~130 MB) downloads once |
